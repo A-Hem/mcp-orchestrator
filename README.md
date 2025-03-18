@@ -1,15 +1,30 @@
-[![Generate Structure](https://github.com/A-Hem/mcp-orchestrator/actions/workflows/generate-structure.yml/badge.svg)](https://github.com/A-Hem/mcp-orchestrator/actions/workflows/generate-structure.yml)
 
-# MCP Orchestrator
 
-## Overview (to contribute help organize the code in bottom of this readme into project and new file structure etc, will work on soon just busy ....) 
 
-The MCP Orchestrator is the core logic for a modular preprocessor context compression system designed for agent knowledge graph tasks using an extensible architecture. The idea is to leverage it's logic and components to extract max value to and from MCP apis, ai models, and existing knowledge graph, caching, and context preprocessing, compression & optimize task execution, identify and nurture novel ideas. .
 
-## Project Structure
 
-### Directories   structure.md
 
+
+
+
+
+
+
+
+
+## Overview - I have been trying to use some of the “core logic" - from a modular preprocessor context compression system prototype [designed for agent knowledge graph tasks using an extensible architecture.] The idea and all the files in this repo are now just used for reference, now instead of building a MCP Orchestrator I would like to leverage a proof of utility engine for compressing and validating knowledge in a network to share extracted “useful knowledge” to and from AI models, during user to ai model interactions this network is an attempt to offload useful knowledge and reward / incentivize contributions. A decentralized peer discovery - validation - incentive protocol in place with a central knowledge graph, caching locally...
+
+ Your LLM could contribute to a central knowledge protocol for the public good, instead of a handful of companies holding all the learned knowledge... 
+
+It could or may be similar to mining in a proof of work protocol. The protocol forks and changes a standard communication system — compressing and validating useful knowledge — a novel orchestrator is now an autonomous unstoppable shared knowledge protocol, AI models tap in, a purpose built global network of LLMs...
+
+
+
+## Original Project Structure - [only for documentation]
+
+### Directories  
+
+’’’mermaid
 - **core**: Contains the main orchestrator logic.
 - **services**: Contains various services used by the orchestrator.
 - **workers**: Contains worker classes for different tasks.
@@ -30,6 +45,8 @@ The MCP Orchestrator is the core logic for a modular preprocessor context compre
 - **package.json**: Node.js project configuration and dependencies.
 - **requirements.txt**: Python dependencies (if any).
 - **structure.md**: Project structure documentation.
+’’’
+
 
 ## Getting Started
 
