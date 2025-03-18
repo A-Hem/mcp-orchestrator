@@ -24,7 +24,6 @@ It could or may be similar to mining in a proof of work protocol. The protocol f
 
 ### Directories  
 
-’’’mermaid
 - **core**: Contains the main orchestrator logic.
 - **services**: Contains various services used by the orchestrator.
 - **workers**: Contains worker classes for different tasks.
